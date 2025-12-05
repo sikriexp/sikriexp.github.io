@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sikriexp.github.io/sitemap.xml
