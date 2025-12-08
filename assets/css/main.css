@@ -1888,3 +1888,46 @@ body {
 .goog-te-gadget .goog-te-combo:hover {
   border-color: var(--accent-color);
 }
+
+
+
+/*--------------------------------------------------------------
+# Collab 2 Section
+--------------------------------------------------------------*/
+.collab .service-item {
+  background-color: white;
+  padding: 30px;
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
+  transition: 0.3s;
+}
+
+.collab .service-item .icon {
+  font-size: 36px;
+  line-height: 0;
+  margin-right: 30px;
+  color: var(--accent-color);
+}
+
+.collab .service-item .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.collab .service-item .title a {
+  color: var(--heading-color);
+}
+
+.collab .service-item .description {
+  line-height: 24px;
+  font-size: 14px;
+  margin: 0;
+}
+
+.collab .service-item:hover {
+  border-color: var(--accent-color);
+}
+
+.collab .service-item:hover .title a {
+  color: var(--accent-color);
+}
