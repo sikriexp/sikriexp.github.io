@@ -1931,3 +1931,60 @@ body {
 .collab .service-item:hover .title a {
   color: var(--accent-color);
 }
+/* Services Carousel Section */
+.services .swiper-slide {
+  width: 300px; /* Fixed width for slides */
+}
+
+.services .service-item {
+  text-align: center;
+  padding: 20px;
+  background: #fdfcfa;
+  box-shadow: 0px 0 30px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  transition: 0.3s;
+  margin: 10px; /* Add some margin around the item */
+}
+
+.services .service-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 0 30px rgba(0, 0, 0, 0.2);
+}
+
+.services .img-frame {
+  width: 100%;
+  height: 250px; /* Fixed height for the frame */
+  overflow: hidden;
+  border: 0.5px solid lightgray; /* The frame border */
+  margin-bottom: 15px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+}
+
+.services .img-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures image fills the square */
+  transition: 0.5s;
+}
+
+.services .service-item:hover .img-frame img {
+  transform: scale(1.1);
+}
+
+.services h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0;
+  color: var(--heading-color);
+  font-family: var(--heading-font);
+}
+
+/* Continuous Scroll Effect */
+.services .swiper-wrapper {
+  transition-timing-function: linear;
+}
+

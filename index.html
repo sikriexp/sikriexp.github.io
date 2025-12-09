@@ -119,259 +119,156 @@
 
     </section><!-- /About Section -->
 
-    <!-- Services Section - Expanded -->
-    <section id="servizi" class="portfolio section light-background">
+    <!-- Services Section -->
+    <section id="servizi" class="services section light-background">
 
       <div class="container section-title" data-aos="fade-up">
-        <h2>Serivizi</h2>
+        <h2>Servizi</h2>
         <p>Collezione di abbigliamento maschile</p>
       </div>
 
-      <div class="container">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
-          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-            <li data-filter="*" class="filter-active">Tutti</li>
-            <li data-filter=".filter-shirt">Top</li>
-            <li data-filter=".filter-pants">Pantaloni</li>
-            <li data-filter=".filter-jacket">Giacche</li>
-            <li data-filter=".filter-puffer">Giubbotti</li>
-            <li data-filter=".filter-suit">Abiti</li>
-            <li data-filter=".filter-collection">Abbinati</li>
-          </ul>
-
-          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-shirt">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/Shirt1.jpg" class="img-fluid" alt="Camicia 1">
-                <div class="portfolio-info">
-                  <h4>Camicie</h4>
-                  <p>Camicia con materiali premium</p>
-                  <a href="assets/img/Shirt1.jpg" title="Camicia Oxford" data-gallery="portfolio-gallery-shirt" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 5000,
+              "autoplay": {
+                "delay": 0,
+                "disableOnInteraction": false
+              },
+              "slidesPerView": "auto",
+              "spaceBetween": 40,
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 20
+                },
+                "640": {
+                  "slidesPerView": 2,
+                  "spaceBetween": 30
+                },
+                "992": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 40
+                },
+                "1200": {
+                  "slidesPerView": 4,
+                  "spaceBetween": 40
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+            
+            <!-- Slide 1: Top -->
+            <div class="swiper-slide">
+              <div class="service-item">
+                <div class="img-frame">
+                   <img src="assets/img/Shirt1.jpg" class="img-fluid" alt="Camicie">
                 </div>
+                <h3>Camicie</h3>
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-pants">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/Pants2.jpg" class="img-fluid" alt="Pantaloni 1">
-                <div class="portfolio-info">
-                  <h4>Pantaloni Chinos</h4>
-                  <p>Pantaloni casual eleganti</p>
-                  <a href="assets/img/Pants2.jpg" title="Pantaloni Chinos" data-gallery="portfolio-gallery-pants" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+            <!-- Slide 2: Pantaloni -->
+            <div class="swiper-slide">
+              <div class="service-item">
+                <div class="img-frame">
+                   <img src="assets/img/Pants6.jpg" class="img-fluid" alt="Pantaloni">
                 </div>
+                <h3>Pantaloni</h3>
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-pants">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/Pants3.jpg" class="img-fluid" alt="Pantaloni 1">
-                <div class="portfolio-info">
-                  <h4>Pantaloni Chinos</h4>
-                  <p>Pantaloni casual eleganti</p>
-                  <a href="assets/img/Pants3.jpg" title="Pantaloni Chinos" data-gallery="portfolio-gallery-pants" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+            <!-- Slide 3: Giacche -->
+            <div class="swiper-slide">
+              <div class="service-item">
+                <div class="img-frame">
+                   <img src="assets/img/Blazer2.jpg" class="img-fluid" alt="Giacche">
                 </div>
+                <h3>Giacche</h3>
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-pants">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/Pants4.jpg" class="img-fluid" alt="Pantaloni 1">
-                <div class="portfolio-info">
-                  <h4>Pantaloni Chinos</h4>
-                  <p>Pantaloni casual eleganti</p>
-                  <a href="assets/img/Pants4.jpg" title="Pantaloni Chinos" data-gallery="portfolio-gallery-pants" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+            <!-- Slide 4: Giacca Denim -->
+            <div class="swiper-slide">
+              <div class="service-item">
+                <div class="img-frame">
+                   <img src="assets/img/giaccadenim1.jpg" class="img-fluid" alt="Giacca Denim">
                 </div>
+                <h3>Giacche in denim</h3>
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-pants">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/Pants5.jpg" class="img-fluid" alt="Pantaloni 1">
-                <div class="portfolio-info">
-                  <h4>Pantaloni Chinos</h4>
-                  <p>Pantaloni casual eleganti</p>
-                  <a href="assets/img/Pants5.jpg" title="Pantaloni Chinos" data-gallery="portfolio-gallery-pants" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+            <!-- Slide 4: Giubbotti -->
+            <div class="swiper-slide">
+              <div class="service-item">
+                <div class="img-frame">
+                   <img src="assets/img/Jacket1.jpg" class="img-fluid" alt="Giubbotti">
                 </div>
+                <h3>Giubbotti</h3>
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-pants">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/Pants.jpg" class="img-fluid" alt="Tute sportive comode">
-                <div class="portfolio-info">
-                  <h4>Tute</h4>
-                  <p>Tute sportive comode</p>
-                  <a href="assets/img/Pants.jpg" title="Tute" data-gallery="portfolio-gallery-pants" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+            
+            <!-- Slide 5: Abiti -->
+            <div class="swiper-slide">
+              <div class="service-item">
+                <div class="img-frame">
+                   <img src="assets/img/abito2.jpg" class="img-fluid" alt="Abiti">
                 </div>
+                <h3>Abiti</h3>
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-jacket">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/Blazer3.jpg" class="img-fluid" alt="Giacca 1">
-                <div class="portfolio-info">
-                  <h4>Giacca Blazer</h4>
-                  <p>Giacca strutturata in lana</p>
-                  <a href="assets/img/Blazer3.jpg" title="Giacca Blazer" data-gallery="portfolio-gallery-jacket" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+            <!-- Slide 6: Abbinati -->
+            <div class="swiper-slide">
+              <div class="service-item">
+                <div class="img-frame">
+                   <img src="assets/img/CompletoFelpato.jpg" class="img-fluid" alt="Abbinati">
                 </div>
+                <h3>Tute</h3>
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-jacket">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/Blazer2.jpg" class="img-fluid" alt="Giacca 2">
-                <div class="portfolio-info">
-                  <h4>Giacca Blazer</h4>
-                  <p>Giacca strutturata</p>
-                  <a href="assets/img/Blazer2.jpg" title="Giacca Blazer" data-gallery="portfolio-gallery-jacket" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+            <!-- Slide 4: Giubbotti -->
+            <div class="swiper-slide">
+              <div class="service-item">
+                <div class="img-frame">
+                   <img src="assets/img/Sweatshirt.jpg" class="img-fluid" alt="Felpe">
                 </div>
+                <h3>Felpe</h3>
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-jacket">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/Blazer4.jpg" class="img-fluid" alt="Giacca 3">
-                <div class="portfolio-info">
-                  <h4>Giacca Blazer</h4>
-                  <p>Giacca strutturata</p>
-                  <a href="assets/img/Blazer4.jpg" title="Giacca Blazer" data-gallery="portfolio-gallery-jacket" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+            <!-- Slide 7: T-shirt -->
+            <div class="swiper-slide">
+              <div class="service-item">
+                <div class="img-frame">
+                   <img src="assets/img/tshirt1.jpg" class="img-fluid" alt="T-shirt">
                 </div>
+                <h3>T-shirt</h3>
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-puffer">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/Jacket1.jpg" class="img-fluid" alt="Giubbotto 1">
-                <div class="portfolio-info">
-                  <h4>Giubbotto Imbottito</h4>
-                  <p>Giubbotto caldo e leggero</p>
-                  <a href="assets/img/Jacket1.jpg" title="Giubbotto Imbottito" data-gallery="portfolio-gallery-puffer" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+            <!-- Slide 8: Polo -->
+            <div class="swiper-slide">
+              <div class="service-item">
+                <div class="img-frame">
+                   <img src="assets/img/polo1.jpg" class="img-fluid" alt="Polo">
                 </div>
-              </div>
-            </div>
-
-
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-pants">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/jeans1.jpg" class="img-fluid" alt="Pantaloni 2">
-                <div class="portfolio-info">
-                  <h4>Pantaloni Jeans</h4>
-                  <p>Jeans artigianali denim</p>
-                  <a href="assets/img/jeans1.jpg" title="Pantaloni Jeans" data-gallery="portfolio-gallery-pants" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-jacket">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/giaccadenim1.jpg" class="img-fluid" alt="Giacca 2">
-                <div class="portfolio-info">
-                  <h4>Giacca Denim</h4>
-                  <p>Giacca in denim robusto</p>
-                  <a href="assets/img/giaccadenim1.jpg" title="Giacca Denim" data-gallery="portfolio-gallery-jacket" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-jacket">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/giaccadenim2.jpg" class="img-fluid" alt="Giacca 2">
-                <div class="portfolio-info">
-                  <h4>Giacca Denim</h4>
-                  <p>Giacca in denim robusto</p>
-                  <a href="assets/img/giaccadenim2.jpg" title="Giacca Denim" data-gallery="portfolio-gallery-jacket" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-suit">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/abito1.jpg" class="img-fluid" alt="Abito 2">
-                <div class="portfolio-info">
-                  <h4>Abito elegante</h4>
-                  <p>Completo classico blu</p>
-                  <a href="assets/img/abito1.jpg" title="Abito Casual" data-gallery="portfolio-gallery-suit" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-suit">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/abito2.jpg" class="img-fluid" alt="Abito 2">
-                <div class="portfolio-info">
-                  <h4>Abito elegante</h4>
-                  <p>Completo classico nero</p>
-                  <a href="assets/img/abito2.jpg" title="Abito Casual" data-gallery="portfolio-gallery-suit" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-shirt">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/Camicia.jpg" class="img-fluid" alt="Camicia 2">
-                <div class="portfolio-info">
-                  <h4>Camicia Stretch</h4>
-                  <p>Camicia elasticizzata</p>
-                  <a href="assets/img/Camicia.jpg" title="Camicia Stretch" data-gallery="portfolio-gallery-shirt" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-shirt">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/PoloMLunghe.jpg" class="img-fluid" alt="Polo a maniche lunghe">
-                <div class="portfolio-info">
-                  <h4>Polo a maniche lunghe</h4>
-                  <p>Polo in cotone a maniche lunghe</p>
-                  <a href="assets/img/PoloMLunghe.jpg" title="Polo a maniche lunghe" data-gallery="portfolio-gallery-shirt" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-shirt">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/Sweatshirt.jpg" class="img-fluid" alt="Felpa">
-                <div class="portfolio-info">
-                  <h4>Felpa</h4>
-                  <p>Felpa in cotone a maniche lunghe</p>
-                  <a href="assets/img/Sweatshirt.jpg" title="Felpa" data-gallery="portfolio-gallery-shirt" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-collection">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/Collection.png" class="img-fluid" alt="Abbinati multi colore">
-                <div class="portfolio-info">
-                  <h4>Abbinati multi colore</h4>
-                  <p>Collezione di abbinati multi colore</p>
-                  <a href="assets/img/Collection.png" title="Abbinati multi colore" data-gallery="portfolio-gallery-shirt" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-collection">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/CompletoFelpato.jpg" class="img-fluid" alt="Abbinati sportivi">
-                <div class="portfolio-info">
-                  <h4>Abbinati sportivi</h4>
-                  <p>Collezione di abbinati sportivi</p>
-                  <a href="assets/img/CompletoFelpato.jpg" title="Abbinati sportivi" data-gallery="portfolio-gallery-shirt" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                </div>
+                <h3>Polo</h3>
               </div>
             </div>
 
           </div>
-
         </div>
 
       </div>
 
-    </section>
+    </section> <!-- /Services Section -->
 
     <section id="services-2" class="services-2 section">
       <!-- Method Section -->
